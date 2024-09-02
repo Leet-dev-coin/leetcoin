@@ -72,6 +72,46 @@ ul li {
     margin-bottom: 10px;
 }
 
+.team {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px;
+    background-color: #2b2b2b;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
 footer {
     background-color: #333;
     padding: 20px;
