@@ -119,3 +119,14 @@ footer {
     text-align: center;
     color: #f0f0f0;
 }
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ff9800; /* Цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Делаем текст жирным */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
